@@ -6,21 +6,21 @@
     <title>Exercicio 2</title>
 </head>
 <body>
-<?php
-//print do texto com echo
-echo "<h1>URLs Absolutas</h1>";
+    <h1>URLs Absolutas</h1>
+    
+    <?php
+    //print dos links absolutos
+    echo "<a href= 'https://www.w3schools.com/'>W3C</a><br><br>";
+    echo "<a href= 'https://www.google.com/'>Google</a>";
+    ?>   
 
-//print dos links absolutos
-echo "<a href= https://www.w3schools.com/>W3C</a><br><br>";
-echo "<a href= https://www.google.com/>Google</a>";
+    <h1>URLs Relativas</h1>
 
-//print do texto com echo
-echo "<h1>URLs Relativas</h1>";
+    <?php
+    //print dos links relativos
+    echo "<a href= 'teste.html'>HTML Images</a><br><br>";
+    echo "<a href= 'teste1.html1'>CSS Tutorial</a>";
+    ?>
 
-//print dos links relativos
-echo "<a href= https://www.w3schools.com/html/html_images.asp>HTML Images</a><br><br>";
-echo "<a href= https://www.w3schools.com/css/>CSS Tutorial</a>";
-
-?>   
 </body>
 </html>
